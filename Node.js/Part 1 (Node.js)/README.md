@@ -1,0 +1,1 @@
+Node.js is a Javascript Runtime Environment. Used for server side programming. Not a language, library or framework.
