@@ -1,0 +1,1 @@
+This folder contains all the self notes made in learning Backend from Apna College(Delta).
