@@ -1,4 +1,6 @@
-https://www.codecademy.com/learn/learn-node-js/modules/intro-to-node-js/cheatsheet
+References:
+* https://www.freecodecamp.org/news/what-are-node-modules/
+* https://www.codecademy.com/learn/learn-node-js/modules/intro-to-node-js/cheatsheet
 
 Node.js is a Javascript Runtime Environment. Used for server side programming. Not a language, library or framework.
 
