@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET/POST Reqs + OOPS</title>
+</head>
+<body>
+    <h3>GET Request Form</h3>
+    <form action="http://localhost:8080/register" method="get">
+        <!-- We write http because our form here exists only in our local system so it is using file protocol but we wish for it to use http protocol for sending request on which our server is running. On same level use of same protocol matters. -->
+        <input type="text" name="user" placeholder="Enter Username">
+        <input type="password" name="password" placeholder="Enter Password">
+        <button>Submit</button>
+    </form>
+    <hr>
+    <h3>POST Request Form</h3>
+    <form action="http://localhost:8080/register" method="post">
+        <input type="text" name="user" placeholder="Enter Username">
+        <input type="password" name="password" placeholder="Enter Password">
+        <button>Submit</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
